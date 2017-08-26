@@ -21,18 +21,20 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
+	font-family: 'Raleway', sans-serif;
 	display: inline
 }
 h2 {
     font-size: 3em;
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
+	font-family: 'Raleway', sans-serif;
+    /*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #751919;
 	display: inline
 }
 p {
-    font-size: 1.5em; 
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+	font-family: 'Source Code Pro', monospace;
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
     color: #333;
 }
