@@ -24,7 +24,8 @@ a:hover {
 h1 {
     font-size: 3em;
 	font-family: 'Roboto Slab', serif;
-	color: #555
+	color: #555;
+	display: inline;
 }
 h2 {
     font-size: 6em;
@@ -37,7 +38,7 @@ h3 {
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #751919;
-	display: inline
+	display: inline;
 }
 p {
     font-size: 1.5em;
