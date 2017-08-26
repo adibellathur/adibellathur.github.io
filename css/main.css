@@ -23,6 +23,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-size: 3em;
+    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
+	color: #751919;
+}
 p {
     font-size: 1.5em; 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
