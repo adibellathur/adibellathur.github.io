@@ -32,7 +32,8 @@ h2 {
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
-	line-height: 5em;
+	margin: 0px;
+	padding: 0px;
 }
 h3 {
     font-size: 3em;
