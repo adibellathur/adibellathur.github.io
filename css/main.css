@@ -28,6 +28,9 @@ h2 {
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
 	color: #751919;
 }
+h1, h2 {
+    display: inline-block;
+}
 p {
     font-size: 1.5em; 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
