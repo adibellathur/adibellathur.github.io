@@ -29,7 +29,7 @@ h2 {
 	color: #751919;
 }
 h1, h2 {
-    display: inline-block;
+    display: inline;
 }
 p {
     font-size: 1.5em; 
