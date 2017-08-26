@@ -28,10 +28,11 @@ h1 {
 	display: inline;
 }
 h2 {
-    font-size: 6em;
+    font-size: 5.5em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
+	line-height: 5em;
 }
 h3 {
     font-size: 3em;
@@ -50,6 +51,9 @@ p {
 hr {
 	height: 1px;
 	color: #d5d5d5;
+}
+.img-circle {
+    border-radius: 50%;
 }
 footer {
     border-top: 1px solid #d5d5d5;
