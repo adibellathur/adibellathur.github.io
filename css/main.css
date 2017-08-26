@@ -68,9 +68,9 @@ ul.posts li {
 }
 
 .boxed {
-	border: 50px solid #928003;
+	border: 10px solid #555;
 	padding: 50px;
-	margin: 20px;
+	margin: 0px;
 }
 .img-circle {
     border-radius: 50%;
