@@ -24,12 +24,13 @@ a:hover {
 h1 {
     font-size: 3em;
 	font-family: 'Roboto Slab', serif;
+	color: #555
 }
 h2 {
     font-size: 6em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
-	color: #751919;
+	color: #63143C;
 }
 h3 {
     font-size: 3em;
@@ -43,7 +44,7 @@ p {
 	font-family: 'Source Code Pro', monospace;
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
-    color: #333;
+    color: #555;
 }
 hr {
 	height: 1px;
