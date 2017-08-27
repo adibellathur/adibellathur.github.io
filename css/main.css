@@ -71,6 +71,10 @@ ul.posts li {
 	margin: 0px;
 }
 
+.text {
+	width:70%;
+}
+
 .boxed-title {
 	border: 1em solid #555;
 	padding: 3em;
