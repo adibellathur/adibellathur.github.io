@@ -72,13 +72,13 @@ ul.posts li {
 	padding: 4em;
 }
 
-.boxed-title {
-	border: 1em solid #555;
-	padding: 3em;
-	margin: 3em;
+.boxed {
+	border: 15em solid #555;
+	padding: 50em;
+	margin: 0em;
 }
 .img-circle {
     border-radius: 50%;
-	padding: 0em 1em;
+	padding: 50em;
 }
 
