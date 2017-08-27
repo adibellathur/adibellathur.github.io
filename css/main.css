@@ -14,6 +14,10 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+div {
+	padding: 70%;
+}
 a {
     text-decoration: none;
     color: #999;
@@ -32,16 +36,12 @@ h2 {
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
-	margin: 0px;
-	padding: 0px;
 }
 h3 {
     font-size: 3em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
-	display: inline;
-	margin: 5em;
 }
 p {
     font-size: 1.5em;
@@ -49,7 +49,6 @@ p {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
     color: #555;
-	margin: 5em;
 }
 hr {
 	height: 1px;
@@ -70,12 +69,13 @@ ul.posts li {
 }
 .theme-color {
 	background: #63143C;
-	margin: 4em;
+	padding: 4em;
 }
 
 .boxed-title {
 	border: 1em solid #555;
 	padding: 3em;
+	margin: 3em;
 }
 .img-circle {
     border-radius: 50%;
