@@ -76,7 +76,7 @@ ul.posts li {
 .boxed {
 	border: 1em solid #555;
 	padding: 5em;
-	margin: 7em;
+	margin: 1em 7em;
 }
 .img-circle {
     border-radius: 50%;
