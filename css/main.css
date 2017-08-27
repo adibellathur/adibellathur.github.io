@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
 }
 nav ul, footer ul {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -32,7 +32,7 @@ h2 {
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
-	margin: 0px;
+	margin: 0em;
 	padding: 0px;
 }
 h3 {
@@ -41,6 +41,7 @@ h3 {
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
 	display: inline;
+	margin: 5em;
 }
 p {
     font-size: 1.5em;
@@ -48,6 +49,7 @@ p {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
     color: #555;
+	margin: 5em;
 }
 hr {
 	height: 1px;
@@ -74,7 +76,7 @@ ul.posts li {
 .boxed {
 	border: 1em solid #555;
 	padding: 5em;
-	margin: 0em;
+	margin: 7em;
 }
 .img-circle {
     border-radius: 50%;
