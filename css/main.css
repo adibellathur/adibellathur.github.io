@@ -82,4 +82,6 @@ ul.posts li {
     border-radius: 50%;
 	padding: 1em;
 }
-
+.white {
+	color: white;
+}
