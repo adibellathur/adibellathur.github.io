@@ -84,4 +84,5 @@ ul.posts li {
 }
 .white {
 	color: white;
+	padding: inherit;
 }
