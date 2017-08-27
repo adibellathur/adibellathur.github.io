@@ -70,7 +70,6 @@ ul.posts li {
     list-style: none;
 }
 .theme-color {
-	width: 100%;
 	background: #63143C;
 	margin: 0px;
 }
@@ -78,7 +77,6 @@ ul.posts li {
 .boxed-title {
 	border: 1em solid #555;
 	padding: 3em;
-	width: 70%;
 	margin: 2em;
 }
 .img-circle {
