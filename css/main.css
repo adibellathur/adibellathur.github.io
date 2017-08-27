@@ -66,6 +66,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.theme-color {
+	background: #63143C;
+	margin: 0px;
+}
 
 .boxed {
 	border: 15px solid #555;
