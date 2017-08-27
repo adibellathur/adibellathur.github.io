@@ -68,7 +68,8 @@ ul.posts li {
 }
 .theme-color {
 	background: #63143C;
-	margin: 0px;
+	margin: 0em;
+	padding 1em, 8em;
 }
 .text-field {
 	padding: 1em 8em;
