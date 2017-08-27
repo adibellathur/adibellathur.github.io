@@ -79,6 +79,11 @@ ul.posts li {
 	padding: 2em 5em;
 	margin: 1em 7em;
 }
+.boxed-rasberry {
+	border: 1em solid #910b34;
+	padding: 2em 5em;
+	margin: 1em 7em;
+}
 .img-circle {
     border-radius: 50%;
 	padding: 1em;
@@ -87,3 +92,12 @@ ul.posts li {
 	color: #D0CECE;
 	padding: inherit;
 }
+.rasberry {
+	color: #D0CECE;
+	padding: inherit;
+}
+.orange {
+	color: #D0CECE;
+	padding: inherit;
+}
+
