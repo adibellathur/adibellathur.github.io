@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
 }
 nav ul, footer ul {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -78,6 +78,7 @@ ul.posts li {
 .boxed-title {
 	border: 1em solid #555;
 	padding: 3em;
+	width: 70%
 	margin: 2em;
 }
 .img-circle {
