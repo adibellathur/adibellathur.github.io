@@ -67,7 +67,7 @@ ul.posts li {
     list-style: none;
 }
 .theme-color {
-	background: #aa929a;
+	background: #63143C;
 	padding: 2em 5em;
 }
 .text-field {
@@ -83,6 +83,6 @@ ul.posts li {
 	padding: 1em;
 }
 .white {
-	color: #63143C;
+	color: #aa929a;
 	padding: inherit;
 }
