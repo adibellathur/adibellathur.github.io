@@ -67,7 +67,7 @@ ul.posts li {
     list-style: none;
 }
 .theme-color {
-	background: #63143C;
+	background: #e0b87f;
 	padding: 2em 5em;
 }
 .text-field {
@@ -75,7 +75,7 @@ ul.posts li {
 }
 .boxed {
 	border: 1em solid #555;
-	padding: 2em 5em;
+	padding: 2em 8em;
 	margin: 1em 7em;
 }
 .img-circle {
@@ -83,6 +83,6 @@ ul.posts li {
 	padding: 1em;
 }
 .white {
-	color: white;
+	color: #874300;
 	padding: inherit;
 }
