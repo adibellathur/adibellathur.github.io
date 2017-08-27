@@ -62,19 +62,23 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
+div {
+	width: 70%;
+}
 
 ul.posts li {
     list-style: none;
 }
 .theme-color {
+	width: 100%;
 	background: #63143C;
 	margin: 0px;
 }
 
-.boxed {
+.boxed-title {
 	border: 1em solid #555;
 	padding: 3em;
-	margin: 0em;
+	margin: 2em;
 }
 .img-circle {
     border-radius: 50%;
