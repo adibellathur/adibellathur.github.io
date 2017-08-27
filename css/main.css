@@ -32,7 +32,7 @@ h2 {
     font-size: 5.5em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
-	color: #910B3A;
+	color: #5E0921;
 	margin: 0em;
 	padding: 0px;
 }
@@ -80,7 +80,7 @@ ul.posts li {
 	margin: 1em 7em;
 }
 .boxed-rasberry {
-	border: 1em solid #910b34;
+	border: 1em solid #910b3a;
 	padding: 2em 5em;
 	margin: 1em 7em;
 }
@@ -93,11 +93,11 @@ ul.posts li {
 	padding: inherit;
 }
 .rasberry {
-	color: #D0CECE;
+	color: #910B3A;
 	padding: inherit;
 }
 .orange {
-	color: #D0CECE;
+	color: #E22B0B;
 	padding: inherit;
 }
 
