@@ -1,5 +1,5 @@
 body {
-	background: #181717;
+	background: #D0CECE;
     margin: 60px auto;
     width: 100%;
 }
@@ -25,14 +25,14 @@ a:hover {
 h1 {
     font-size: 3em;
 	font-family: 'Roboto Slab', serif;
-	color: #e7e6e6;
+	color: #181717;
 	display: inline;
 }
 h2 {
     font-size: 5.5em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
-	color: #BC0B34;
+	color: #910B3A;
 	margin: 0em;
 	padding: 0px;
 }
@@ -40,7 +40,7 @@ h3 {
     font-size: 3em;
     font-family: 'Roboto Slab', serif;
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
-	color: #BC0B34;
+	color: #910B34;
 	display: inline;
 }
 p {
@@ -48,11 +48,11 @@ p {
 	font-family: 'Source Code Pro', monospace;
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
-    color: #e7e6e6;
+    color: #181717;
 }
 hr {
 	height: 1px;
-	color: #e7e6e6;
+	color: #181717;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -68,14 +68,14 @@ ul.posts li {
     list-style: none;
 }
 .theme-color {
-	background: #D0CECE;
+	background: #181717;
 	padding: 2em 5em;
 }
 .text-field {
 	padding: 1em 8em;
 }
 .boxed {
-	border: 1em solid #e7e6e6;
+	border: 1em solid #181717;
 	padding: 2em 5em;
 	margin: 1em 7em;
 }
@@ -84,6 +84,6 @@ ul.posts li {
 	padding: 1em;
 }
 .white {
-	color: #181717;
+	color: #D0CECE;
 	padding: inherit;
 }
