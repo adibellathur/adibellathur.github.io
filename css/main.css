@@ -41,7 +41,6 @@ h3 {
 	/*font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';*/
 	color: #63143C;
 	display: inline;
-	margin: 70%;
 }
 p {
     font-size: 1.5em;
@@ -49,7 +48,6 @@ p {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 	line-height: 1.4em;
     color: #555;
-	margin: 70%;
 }
 hr {
 	height: 1px;
@@ -72,7 +70,9 @@ ul.posts li {
 	background: #63143C;
 	margin: 0px;
 }
-
+.text-field {
+	padding: 5em;
+}
 .boxed {
 	border: 1em solid #555;
 	padding: 5em;
