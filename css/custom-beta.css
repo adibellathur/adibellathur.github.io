@@ -6,8 +6,40 @@
   color: #a9cddc;
 }
 
+.dark {
+  color: #333;
+}
+.light {
+  color: #d9d9d9;
+}
+
+.description-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #333
+}
+
+.description-text-large {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #333
+}
+
+.footer-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #d9d9d9;
+}
+
 a {
     color: #a9cddc;
+}
+
+a.active, a:active, a:focus, a:hover {
+  color:  #a9cddc;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -57,13 +89,11 @@ h3.quoteable {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: none;
-  color: #ff9994;
 }
 
 #i_am {
   font-size: 2em;
   padding-top: 0.5em;
-  color: #a9cddc;
 }
 
 section h2.section-heading {
@@ -73,13 +103,6 @@ section h2.section-heading {
   color: #333;
   text-transform: lowercase;
   letter-spacing: 0.02em;
-}
-
-section p.description-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.25em;
-  color: #333
 }
 
 section .padded-row {
@@ -95,6 +118,7 @@ section .padded-row {
 
 #portfolio .portfolio-item .portfolio-caption {
   text-align: left;
+  background-color: transparent;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -112,6 +136,35 @@ section .padded-row {
   color: black;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-blue {
   background: #a9cddc;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-peach {
+  background: #ff9994;
+}
+
+.btn-primary {
+  background-color: #a9cddc;
+  border-color: #a9cddc;
+}
+
+.btn-primary:hover {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
+
+.btn-primary.active, .btn-primary:active {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
+
+.btn-peach {
+  background-color: #ff9994;
+  border-color: #ff9994;
 }
