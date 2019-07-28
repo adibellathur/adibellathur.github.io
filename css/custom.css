@@ -1,96 +1,251 @@
+.peach {
+  color: #ff9994;
+}
+
+.blue {
+  color: #a9cddc;
+}
+
+.dark {
+  color: #333;
+}
+.light {
+  color: #d9d9d9;
+}
+
+body {
+    -webkit-tap-highlight-color: #d9d9d9;
+}
+
+::selection {
+    background: #d9d9d9;
+    text-shadow: none;
+}
+
+.description-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #333
+}
+
+.description-text-large {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #333
+}
+
+.footer-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #d9d9d9;
+}
+
+@media (max-width: 767px) {
+  .description-text-large {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333
+  }
+}
+
 a {
-	color: #999999;
-}
-a:hover {
-	color: #ff7552;
-}
-p{
-	font-size: 1.5em;
-	font-family: "Source Sans Pro", sans-serif;
-}
-p.white {
-	color: white;
+    color: #a9cddc;
 }
 
-h2 {
-	font-family: 'Julius Sans One', sans-serif;
+a.active, a:active, a:focus, a:hover {
+  color:  #a9cddc;
 }
 
-#mainNav .navbar-brand {
-	color: #ff7552;
-	font-family: 'Yellowtail', "Julius Sans One", serif;
+@media (max-width: 992px) {
+  #mainNav {
+      background-color: #fff;
+      border-style: none none solid none;
+      border-width: thin;
+      border-color: #d9d9d9;
+  }
+
+  #mainNav .navbar-toggler {
+    background-color: #fff;
+    border-style: solid;
+    border-width: thin;
+    border-color: #333;
+    color: #333;
+  }
 }
-#mainNav .navbar-brand:hover {
-	color: white;
-}
+
 #mainNav .navbar-nav .nav-item .nav-link {
-	color: white;
-	font-family: "Archivo Narrow", sans-serif;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 0.25em }
-	#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-	      color: #ff7552; }
-	#mainNav .navbar-toggler {
-		background-color: #ff7552;
-	}
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #333
+}
 
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #a9cddc;
+}
 
 header.masthead {
-	background-image: url("../img/header-sun.jpg");
-	/*filter: gray;*/ /* IE6-9 */
-	/*-webkit-filter: grayscale(1)*/; /* Google Chrome, Safari 6+ & Opera 15+ */
-	/*filter: grayscale(1)*/
+	background-image: url("../img/website_splashpage.jpg");
 }
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 325px;
+}
+
 header.masthead .intro-text .intro-heading {
-	font-family: 'Julius Sans One', sans-serif;
-	font-weight: 400;
-	margin-top: 1em;
-	font-size: 6em;
-	line-height: 120px;
-	text-align: right;
-	/*color: #ff8753;*/
-	color: #ff7552;
+  font-family: 'Amiri', serif;
+  font-weight: 900;
+  font-size: 6em;
+  color: #333;
+  text-transform: lowercase;
+  letter-spacing: 0.05em
 }
-header.masthead .intro-text .intro-lead-in {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	text-align: right;
-	letter-spacing: 4pt;
+
+header.masthead .subhead {
+  padding-bottom: 50px;
+}
+
+@media(max-width: 992px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 992px) {
+  header.masthead {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 767px) {
+  header.masthead {
+  	background-image: url("../img/website_splashpage_mobile.png");
+    background-size: contain;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 4em;
+    text-align: left;
+    margin-left: 0.5em;
+  }
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+section.bg-grey {
+  color: #d9d9d9;
+}
+
+@media (max-width:768px) {
+  .half-col [class*="col-"] {
+  width: 50%;
+  }
+}
+
+h3.quoteable {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: none;
+}
+
+#i_am {
+  font-size: 2em;
+  padding-top: 0.5em;
 }
 
 section h2.section-heading {
-	font-family: 'Julius Sans One', sans-serif;
-	color: #ff7552;
-	font-size: 3em;
-}
-section h3.section-subheading {
-	font-family: 'Archivo Narrow', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1pt;
-	color: #000000;
+  font-family: 'Amiri', serif;
+  font-weight: 900;
+  font-size: 3.5em;
+  color: #333;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
 }
 
-h4.service-heading {
-	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 2em;
-	letter-spacing: 2pt;}
-.portfolio-modal .modal-content p.item-intro {
-	font-family: 'Archivo Narrow', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1pt;
-	color: #000000;
+@media (max-width:767px) {
+  section h2.section-heading {
+    font-family: 'Amiri', serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #333;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+  }
 }
+
+section .padded-row {
+  padding-top: 1em;
+}
+
+#portfolio .portfolio-item a {
+  border-style: solid;
+  border-width: thin;
+  border-color: #e5e5e5;
+  height: 100%;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  text-align: left;
+  background-color: transparent;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  font-family: 'Amiri', serif;
+  font-style: normal;
+  font-size: 1.75rem;
+  text-transform: lowercase;
+  color: black;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: 'Montserrat', serif;
+  font-size: 0.75em;
+  font-style: normal;
+  color: black;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-blue {
+  background: #a9cddc;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-peach {
+  background: #ff9994;
+}
+
+.service-heading {
+    margin: 0 0 0 0;
+    text-transform: none;
+}
+
 .btn-primary {
-	background-color: #999999;
-	border-color: #999999;
+  background-color: #a9cddc;
+  border-color: #a9cddc;
 }
+
 .btn-primary:hover {
-	background-color: #ff7552;
-	border-color: #ff7552;
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-	background: #ff7552;
 
+.btn-primary.focus, .btn-primary:focus {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
 
+.btn-primary.active, .btn-primary:active {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+}
+
+.btn-peach {
+  background-color: #ff9994;
+  border-color: #ff9994;
+}
