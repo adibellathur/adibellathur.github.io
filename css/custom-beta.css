@@ -13,6 +13,15 @@
   color: #d9d9d9;
 }
 
+body {
+    -webkit-tap-highlight-color: #d9d9d9;
+}
+
+::selection {
+    background: #d9d9d9;
+    text-shadow: none;
+}
+
 .description-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -34,12 +43,38 @@
   color: #d9d9d9;
 }
 
+@media (max-width: 767px) {
+  .description-text-large {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #333
+  }
+}
+
 a {
     color: #a9cddc;
 }
 
 a.active, a:active, a:focus, a:hover {
   color:  #a9cddc;
+}
+
+@media (max-width: 992px) {
+  #mainNav {
+      background-color: #fff;
+      border-style: none none solid none;
+      border-width: thin;
+      border-color: #d9d9d9;
+  }
+
+  #mainNav .navbar-toggler {
+    background-color: #fff;
+    border-style: solid;
+    border-width: thin;
+    border-color: #333;
+    color: #333;
+  }
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -74,6 +109,30 @@ header.masthead .subhead {
   padding-bottom: 50px;
 }
 
+@media(max-width: 992px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 5em;
+  }
+}
+
+@media (max-width: 992px) {
+  header.masthead {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 767px) {
+  header.masthead {
+  	background-image: url("../img/website_splashpage_mobile.png");
+    background-size: contain;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 4em;
+    text-align: left;
+    margin-left: 0.5em;
+  }
+}
+
 section {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -83,6 +142,12 @@ section {
 
 section.bg-grey {
   color: #d9d9d9;
+}
+
+@media (max-width:768px) {
+  .half-col [class*="col-"] {
+  width: 50%;
+  }
 }
 
 h3.quoteable {
@@ -103,6 +168,17 @@ section h2.section-heading {
   color: #333;
   text-transform: lowercase;
   letter-spacing: 0.02em;
+}
+
+@media (max-width:767px) {
+  section h2.section-heading {
+    font-family: 'Amiri', serif;
+    font-weight: 900;
+    font-size: 3em;
+    color: #333;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+  }
 }
 
 section .padded-row {
@@ -142,6 +218,11 @@ section .padded-row {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-peach {
   background: #ff9994;
+}
+
+.service-heading {
+    margin: 0 0 0 0;
+    text-transform: none;
 }
 
 .btn-primary {
