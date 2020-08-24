@@ -77,18 +77,33 @@ a.active, a:active, a:focus, a:hover {
   }
 }
 
+#mainNav {
+  background-color: #fff;
+  border-style: none none solid none;
+  border-width: thin;
+  border-color: #d9d9d9;
+  height: 60px;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  color: #333
+  color: #333;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #a9cddc;
+
 }
 
 header.masthead {
 	background-image: url("../img/splashpage_2.png");
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    margin-top: 50px;
+  }
 }
 
 header.masthead .intro-text {
@@ -185,6 +200,13 @@ section .padded-row {
   padding-top: 1em;
 }
 
+.with-padding {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2.5em;
+}
+
 #portfolio .portfolio-item a {
   border-style: solid;
   border-width: thin;
@@ -220,6 +242,30 @@ section .padded-row {
   background: #ff9994;
 }
 
+#portfolio .portfolio-item .portfolio-link .portfolio-hover.portfolio-grey {
+  background: #e5e5e5;
+}
+
+.portfolio-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#portfolio .collapse.show {
+  display: flex;
+}
+
+#portfolio .accordion-inner {
+  display: flex;
+}
+
+#portfolio .portfolio-link-img {
+  height: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e5e5e5;
+}
+
 .service-heading {
     margin: 0 0 0 0;
     text-transform: none;
@@ -248,4 +294,10 @@ section .padded-row {
 .btn-peach {
   background-color: #ff9994;
   border-color: #ff9994;
+}
+
+.btn-portfolio {
+  background-color: white;
+  border-color: white;
+  color: #333;
 }
