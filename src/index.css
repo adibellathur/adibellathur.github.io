@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Geist Mono', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1a1a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Geist Mono', monospace;
+  background: 
+    linear-gradient(to right, #1a1a1a 0%, #1a1a1a 40%, rgba(26, 26, 26, 0.8) 70%, rgba(26, 26, 26, 0.4) 100%),
+    url('/src/assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Custom Portfolio Components */
+@layer components {
+  .glass-card {
+    @apply bg-portfolio-card bg-opacity-40 rounded-xl backdrop-blur-sm shadow-lg border border-portfolio-border;
+  }
+  
+  .glass-card-hover {
+    @apply glass-card hover:bg-opacity-50 transition-all;
+  }
+  
+  .text-accent {
+    color: #8E979F;
+  }
+  
+  .section-padding {
+    @apply px-12;
+  }
+  
+  .text-body {
+    @apply text-10;
+  }
+}
