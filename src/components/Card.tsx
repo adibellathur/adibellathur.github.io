@@ -11,8 +11,8 @@ interface CardProps {
 const paddingClasses = {
   none: '',
   sm: 'p-4',
-  md: 'py-6 px-8',
-  lg: 'py-8 px-12'
+  md: 'py-4 px-4 sm:py-6 sm:px-8',
+  lg: 'py-6 px-6 sm:py-8 sm:px-12'
 }
 
 export function Card({ 

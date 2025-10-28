@@ -74,9 +74,9 @@ function App() {
   ]
 
   return (
-    <div className="min-h-screen text-white font-mono text-body p-8 max-w-4xl mx-auto">
+    <div className="min-h-screen text-white font-mono text-body p-4 md:p-8 max-w-4xl mx-auto">
       {/* Header Section */}
-      <div className="mb-16">
+      <div className="mb-8 md:mb-16">
         <p className="text-xs text-gray-400 mb-4">adithya bellathur's personal website</p>
         <Card>
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
