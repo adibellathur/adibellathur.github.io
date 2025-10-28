@@ -1,5 +1,5 @@
 import profileImage from './assets/profile.jpg'
-import { Card, ProjectCard } from './components/Card'
+import { Card } from './components/Card'
 import { Section } from './components/Section'
 import { WorkItem, ResearchItem } from './components/ListItem'
 
@@ -65,13 +65,6 @@ function App() {
     }
   ]
 
-  const projects: Project[] = [
-    { title: "Project 1" },
-    { title: "Project 2" },
-    { title: "Project 3" },
-    { title: "Project 4" },
-    { title: "Project 5" }
-  ]
 
   return (
     <div className="min-h-screen text-white font-mono text-body p-4 md:p-8 max-w-4xl mx-auto">
