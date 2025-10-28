@@ -79,15 +79,23 @@ function App() {
       <div className="mb-16">
         <p className="text-xs text-gray-400 mb-4">adithya bellathur's personal website</p>
         <Card>
-          <div className="flex items-center justify-between">
-            <div>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+            <div className="mb-6 md:mb-0 flex justify-center md:order-2 md:ml-8 flex-shrink-0">
+              <div className="w-32 h-32 rounded-full overflow-hidden bg-red-500">
+                <img 
+                  src={profileImage} 
+                  alt="Adithya Bellathur" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="md:order-1">
               <h1 className="text-2xl font-normal mb-4">Hello</h1>
-              <p className="text-gray-300 leading-relaxed max-w-2xl">
+              <p className="text-gray-300 leading-relaxed">
                 My name is Adithya Bellathur, a developer, founder,{' '}
-                <br />
                 musician, and artist. I love solving puzzles and tackling hard challenges.
               </p>
-              <p className="text-gray-300 leading-relaxed mt-4 max-w-2xl">
+              <p className="text-gray-300 leading-relaxed mt-4">
                 I'm currently building the future of music education at{' '}
                 <a 
                   href="https://notey.co" 
@@ -98,15 +106,6 @@ function App() {
                   Notey Inc.
                 </a>
               </p>
-            </div>
-            <div className="ml-8 flex-shrink-0">
-              <div className="w-32 h-32 rounded-full overflow-hidden bg-red-500">
-                <img 
-                  src={profileImage} 
-                  alt="Adithya Bellathur" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
             </div>
           </div>
         </Card>
