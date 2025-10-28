@@ -85,7 +85,7 @@ function App() {
               <p className="text-gray-300 leading-relaxed max-w-2xl">
                 My name is Adithya Bellathur, a developer, founder,{' '}
                 <br />
-                musician, and artist. I like to solve problems.
+                musician, and artist. I love solving puzzles and tackling hard challenges.
               </p>
               <p className="text-gray-300 leading-relaxed mt-4 max-w-2xl">
                 I'm currently building the future of music education at{' '}
